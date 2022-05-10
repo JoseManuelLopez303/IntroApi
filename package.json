@@ -1,0 +1,22 @@
+{
+  "name": "proyecto-express",
+  "version": "1.0.0",
+  "description": "Introduccion a las API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseManuelLopez303/IntroApi.git"
+  },
+  "author": "Jose Manuel Lopez Gonzalez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoseManuelLopez303/IntroApi/issues"
+  },
+  "homepage": "https://github.com/JoseManuelLopez303/IntroApi#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
