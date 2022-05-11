@@ -18,6 +18,13 @@ app.get('/users',(request, response) => {
     });
 });
 
+//Mostrar un solo usaurio por ID
+app.get('/users/:id',(request, response) => {
+    pool.query('SELECT * FROM users WHERE id = ?', id,(error, result) => {
+        if(error) throw error;
+        response.send(result);
+    });
+});
+
 
     }
-    
